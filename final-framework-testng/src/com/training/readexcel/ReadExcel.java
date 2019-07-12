@@ -11,13 +11,14 @@ import jxl.read.biff.BiffException;
 
 public class ReadExcel {
 	
-	public String[][] getExcelData(String fileName, String sheetName) 
+	public String[][] getExcelData(String fileName, String string) 
 	   {
 			String[][] arrayExcelData = null;
 			try 
 			{
 				FileInputStream fs = new FileInputStream(fileName);
 				Workbook wb = Workbook.getWorkbook(fs);
+				String sheetName = null;
 				Sheet sh = wb.getSheet(sheetName);
 
 				int totalNoOfCols = sh.getColumns();
@@ -43,7 +44,7 @@ public class ReadExcel {
 
 	// Test method, change the path of the .xls file 
 	public static void main(String[] args) {
-		String[][] result = new ReadExcel().getExcelData("C:/Users/Naveen/Desktop/Testing.xls", "Sheet1"); 
+		String[][] result = new ReadExcel().getExcelData("C:\\Users\\SowmyaYantrapragada\\Desktop\\Selenium\\SeleniumProject\\TestData.xlsx", "Sheet2"); 
 		
 		for(String [] temp : result){
 			for(String temp1: temp){
@@ -51,4 +52,6 @@ public class ReadExcel {
 			}
 		}
 	}
+
+
 }

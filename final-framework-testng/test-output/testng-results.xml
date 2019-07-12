@@ -1,65 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20808" started-at="2019-06-25T05:27:22Z" finished-at="2019-06-25T05:27:43Z">
+  <suite name="Default suite" duration-ms="99338" started-at="2019-07-06T09:53:55Z" finished-at="2019-07-06T09:55:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20808" started-at="2019-06-25T05:27:22Z" finished-at="2019-06-25T05:27:43Z">
-      <class name="com.training.regression.tests.LoginDBTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginDBTest@1bce4f0a]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2019-06-25T05:27:22Z" finished-at="2019-06-25T05:27:22Z">
+    <test name="Default test" duration-ms="99338" started-at="2019-07-06T09:53:55Z" finished-at="2019-07-06T09:55:34Z">
+      <class name="com.training.regression.tests.InvalidRegExcelTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.InvalidRegExcelTest@3bfdc050]" name="setUpBeforeClass" is-config="true" duration-ms="8430" started-at="2019-07-06T09:53:56Z" finished-at="2019-07-06T09:54:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginDBTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="6207" started-at="2019-06-25T05:27:23Z" finished-at="2019-06-25T05:27:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginDBTest@1bce4f0a]" name="loginDBTest" duration-ms="2243" started-at="2019-06-25T05:27:29Z" data-provider="db-inputs" finished-at="2019-06-25T05:27:31Z">
+        <test-method status="PASS" signature="InvalidRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.InvalidRegExcelTest@3bfdc050]" name="InvalidRegTest" duration-ms="24649" started-at="2019-07-06T09:54:04Z" data-provider="excel-inputs" finished-at="2019-07-06T09:54:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[Sasira]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admin@123]]>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sasiray12@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(739)590-3713]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Manyata]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D2 Block]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[560045.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[sasira]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sasira]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginDBTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1825" started-at="2019-06-25T05:27:31Z" finished-at="2019-06-25T05:27:33Z">
+        </test-method> <!-- InvalidRegTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.InvalidRegExcelTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="762" started-at="2019-07-06T09:54:29Z" finished-at="2019-07-06T09:54:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginDBTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="5544" started-at="2019-06-25T05:27:33Z" finished-at="2019-06-25T05:27:38Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.InvalidRegExcelTest@3bfdc050]" name="setUpBeforeClass" is-config="true" duration-ms="7051" started-at="2019-07-06T09:54:29Z" finished-at="2019-07-06T09:54:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginDBTest@1bce4f0a]" name="loginDBTest" duration-ms="2890" started-at="2019-06-25T05:27:38Z" data-provider="db-inputs" finished-at="2019-06-25T05:27:41Z">
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="InvalidRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.InvalidRegExcelTest@3bfdc050]" name="InvalidRegTest" duration-ms="24169" started-at="2019-07-06T09:54:36Z" data-provider="excel-inputs" finished-at="2019-07-06T09:55:01Z">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[Abhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abhin12@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[(739)590-3712]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Manyata]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[D2 Block]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[560045.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[abhi]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[abhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidRegTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.InvalidRegExcelTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="754" started-at="2019-07-06T09:55:01Z" finished-at="2019-07-06T09:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.InvalidRegExcelTest@3bfdc050]" name="setUpBeforeClass" is-config="true" duration-ms="7337" started-at="2019-07-06T09:55:01Z" finished-at="2019-07-06T09:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="InvalidRegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.InvalidRegExcelTest@3bfdc050]" name="InvalidRegTest" duration-ms="24883" started-at="2019-07-06T09:55:09Z" data-provider="excel-inputs" finished-at="2019-07-06T09:55:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sowmya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23456.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sowmya@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7.39590371E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Manyata]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[D2 Block]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[560045.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="11">
               <value>
                 <![CDATA[sowmya]]>
               </value>
             </param>
-            <param index="1">
+            <param index="12">
               <value>
-                <![CDATA[testing@123]]>
+                <![CDATA[sowmya]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginDBTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1792" started-at="2019-06-25T05:27:41Z" finished-at="2019-06-25T05:27:43Z">
+        </test-method> <!-- InvalidRegTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.InvalidRegExcelTest@3bfdc050]" name="tearDown" is-config="true" duration-ms="744" started-at="2019-07-06T09:55:34Z" finished-at="2019-07-06T09:55:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.regression.tests.LoginDBTest -->
+      </class> <!-- com.training.regression.tests.InvalidRegExcelTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
